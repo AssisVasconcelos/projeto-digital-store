@@ -1,13 +1,26 @@
-import { StrictMode } from "react";
+// Importa o que será usado: funções e contextos
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
-import 'primereact/resources/themes/saga-blue/theme.css';  
-import 'primereact/resources/primereact.min.css';          
-import 'primeicons/primeicons.css';
+import { BrowserRouter } from "react-router-dom";
+import { PrimeReactProvider } from "primereact/api";
+import { CartProvider } from "./context/CartContext";
+import "primereact/resources/themes/lara-light-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeflex/primeflex.css";
+import App from "./App";
 
+// Configurações globais do PrimeReact
+const config = {
+  hideOverlaysOnDocumentScrolling: true,
+  // outras configs, se quiser
+};
 
+// Monta a aplicação com os contextos e rotas
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+  <PrimeReactProvider value={config}>
+    <BrowserRouter>
+      <CartProvider>
+        <App />
+      </CartProvider>
+    </BrowserRouter>
+  </PrimeReactProvider>
 );
