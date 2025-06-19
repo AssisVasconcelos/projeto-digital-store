@@ -116,9 +116,9 @@ Livro Pro Git
 Guia Figma
 
 🌐 Deploys (opcional)
-GitHub Pages: https://seuusuario.github.io/seuprojeto
+GitHub Pages:
 
-Vercel: https://seuprojeto.vercel.app
+Vercel: projeto-digital-store-six.vercel.app
 
 📎 Observações Finais
 As funcionalidades de "Ordenar por" e "Filtrar por" precisam apenas estar visualmente presentes.
