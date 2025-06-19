@@ -97,7 +97,7 @@ const SiteData = {
           subtitle: "Melhores ofertas personalizadas",
           description:
             "Consequat culpa exercitation mollit nisi excepteur do tempor laboris eiusmod nure consectetur.",
-          image: "/public/images/tenis-nike.png",
+          image: "/images/tenis-nike.png",
           label: "Ver Ofertas",
           link: "/produtos/ofertas",
           rotate: 335,
