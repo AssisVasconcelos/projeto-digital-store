@@ -79,6 +79,8 @@ Pré-requisitos: Node.js versão 16 ou superior e um navegador moderno.
 ✅ Componente reutilizáveis
 
 📁 Estrutura de Diretórios
+
+```
 ├── src/
 │ ├── assets
 │ ├── components/
@@ -88,6 +90,7 @@ Pré-requisitos: Node.js versão 16 ou superior e um navegador moderno.
 │ └── pages/
 ├── App.jsx
 └── index.jsx
+```
 
 📝 Critérios de Avaliação
 Construção Lógica
